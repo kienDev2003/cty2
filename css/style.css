@@ -9,7 +9,7 @@ body {
   font-weight: 300;
   font-family: svn-gilroy, sans-serif;
 }
-/* ========== Common ========== */
+/* =============== Commom =============== */
 img {
   object-fit: cover;
 }
@@ -20,7 +20,7 @@ a {
   max-width: 1340px;
   width: 100%;
 }
-/* ========== Header ========== */
+/* =============== Header =============== */
 .header {
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +161,8 @@ a {
 .header .who-we-are .img img {
   margin-top: 10px;
 }
-/* ========== Main ========== */
+/* =============== Main =============== */
+/* ===== what-we-do ===== */
 .main .what-we-do {
   max-width: 1140px;
   width: 100%;
@@ -229,6 +230,7 @@ main .what-we-do .list-icon-tech .item img {
   color: #000;
   font-size: 1.4rem;
 }
+/* ===== our-services ===== */
 .main .our-services {
   display: flex;
   margin-top: 375px;
@@ -278,6 +280,7 @@ main .what-we-do .list-icon-tech .item img {
 .main .our-services .img {
   width: 656px;
 }
+/* ===== application ===== */
 .main .application {
   max-width: 1140px;
   width: 100%;
@@ -355,6 +358,59 @@ main .what-we-do .list-icon-tech .item img {
   width: 203px;
   margin-top: 27px;
 }
+/* ===== baogia ===== */
+.main .baogia {
+  margin-top: 220px;
+  border-radius: 7px;
+  background: linear-gradient(
+      90deg,
+      #0061b0 1.13%,
+      #016dc6 51.5%,
+      #048bfa 99.82%
+    ),
+    #c4c4c4;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.main .baogia p {
+  padding-top: 51px;
+  text-align: center;
+  color: #fffbfb;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.main .baogia .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+  gap: 36px;
+  padding-bottom: 51px;
+}
+.main .baogia .txtValue {
+  border-radius: 3px;
+  background: #33a3ff;
+  color: #d1c6c6;
+  font-size: 1.4rem;
+  width: 221px;
+  height: 54px;
+  border: none;
+}
+.main .baogia .btnBaoGia {
+  width: 221px;
+  height: 54px;
+  border-radius: 3px;
+  background: #fcfeff;
+  color: #474646;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.main .baogia .btnBaoGia:hover {
+  cursor: pointer;
+}
+/* ===== meet-our-team ===== */
 .main .meet-our-team {
   max-width: 1140px;
   width: 100%;
@@ -393,6 +449,7 @@ main .what-we-do .list-icon-tech .item img {
 .main .meet-our-team .item .desc {
   margin-top: 5px;
 }
+/* ===== our-goals ===== */
 .main .our-goals {
   max-width: 1140px;
   width: 100%;
@@ -445,7 +502,7 @@ main .what-we-do .list-icon-tech .item img {
   font-weight: 300;
   margin-top: 52px;
 }
-/* ========== Footer ========== */
+/* =============== Footer =============== */
 .footer {
   margin-top: 360px;
   background-repeat: no-repeat;

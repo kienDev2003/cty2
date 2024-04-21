@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: svn-gilroy, sans-serif;
+}
+/* =============== Commom =============== */
+img {
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+}
+.main-content {
+  max-width: 1340px;
+  width: 100%;
+}
+/* =============== Header =============== */
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../img/bg-top.png");
+}
+.header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header .logo {
+  text-align: center;
+  width: 237px;
+  height: 35px;
+}
+.header .logo img {
+  width: 100%;
+}
+.header .logo .desc {
+  color: #fffafa;
+  font-size: 1.6rem;
+}
+.header .nav ul {
+  display: flex;
+  gap: 55px;
+}
+.header .nav a {
+  color: #fffcfc;
+  font-size: 1.8rem;
+}
+.header .slogan {
+  margin-top: 340px;
+  display: flex;
+}
+.header .text-slogan {
+  width: 54%;
+  margin-left: 339px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .text-slogan .left p {
+  color: #fff;
+  font-size: 28.8rem;
+  font-weight: 700;
+}
+.header .text-slogan .right p {
+  color: #fff;
+  font-size: 9.6rem;
+}
+.header .text-slogan .right p:not(:first-child) {
+  color: #fff;
+  font-size: 16rem;
+  font-weight: 700;
+}
+.header .action-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 65px;
+}
+.header .action-contact .btn-follow {
+  width: 195.983px;
+  height: 49.16px;
+  color: #037ee3;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
+.header .action-contact .btn-follow:hover {
+  cursor: pointer;
+}
+.header .action-contact .social-network {
+  width: 154.727px;
+  height: 32.727px;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+.header .action-contact .social-network img {
+  width: 100%;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .body {
+  width: 1140px;
+}
+.main .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.main .Introdution {
+  margin-top: 120px;
+  color: #0061b0;
+  font-size: 9.6rem;
+}
+.main .Maiatech {
+  margin-top: 10px;
+  color: #0061b0;
+  font-size: 9.6rem;
+  font-weight: 700;
+}
+.main .cty {
+  margin-top: 50px;
+  width: 400px;
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.main .list-item {
+  width: 800px;
+  line-height: 1.5em;
+  margin-top: 50px;
+}
+.main .item {
+  margin-top: 15px;
+}
+.main .item .tittle {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.main .item .desc {
+  color: #000;
+  font-size: 1.8rem;
+}
+.footer {
+  margin-top: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../img/bg-footer.png");
+}
+.footer .top {
+  position: relative;
+}
+.footer .top .img img {
+  width: 100%;
+  filter: brightness(0.5);
+}
+.footer .top .text {
+  position: absolute;
+  text-align: center;
+  width: 833px;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer .top .text .desc {
+  color: #fff;
+  font-size: 3.5rem;
+}
+.footer .top .text .Your-Problem {
+  color: #fff;
+  font-size: 9.6rem;
+  font-weight: 700;
+}
+.footer .top .text .Our-Solution {
+  color: #fff;
+  font-size: 9.6rem;
+  font-weight: 700;
+}
+.footer .top .text .btn-contact {
+  width: 195.983px;
+  height: 49.16px;
+  border-radius: 2px;
+  background: linear-gradient(
+      90deg,
+      #0061b0 0.05%,
+      #016dc6 47.39%,
+      #048bfa 99.93%
+    ),
+    #0061b0;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: none;
+  margin-top: 63px;
+}
+.footer .nav-footer {
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .nav-footer .logo-footer {
+  text-align: center;
+  color: #fff;
+  width: 237px;
+  height: 35px;
+}
+.footer .nav-footer .logo-footer p {
+  margin-top: 7px;
+}
+.footer .nav-footer .logo-footer img:not(:first-child) {
+  margin-top: 27px;
+}
+.footer .nav-footer .info {
+  width: 280px;
+}
+.footer .nav-footer .info .item {
+  margin-top: 16px;
+}
+.footer .nav-footer .info .item .tittle {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.footer .nav-footer .info .item .desc {
+  margin-top: 6px;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.footer .nav-footer .menu-footer li {
+  margin-top: 20px;
+}
+.footer .nav-footer .menu-footer li a {
+  color: #fdf9f9;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.footer .copyright {
+  margin-top: 160px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.footer .copyright p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
