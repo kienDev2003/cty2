@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 .main-content {
+  margin: 0 auto;
   max-width: 1340px;
   width: 100%;
 }
@@ -25,6 +26,28 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../img/bg-top.png");
+}
+.header .main-content {
+  position: relative;
+}
+.header .icon-vuong {
+  left: 30%;
+  top: 200px;
+  position: absolute;
+}
+.header .icon-gachcheo {
+  right: 0;
+  position: absolute;
+}
+.header .icon-trong {
+  top: 50%;
+  left: 40%;
+  position: absolute;
+}
+.header .icon-tron-to {
+  position: absolute;
+  top: 58%;
+  right: 10%;
 }
 .header .header-nav {
   display: flex;
@@ -167,13 +190,29 @@ a {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 285px;
+  margin-top: 300px;
+}
+.main .what-we-do .icon-cheo {
+  position: relative;
+}
+.main .what-we-do .icon-cheo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .what-we-do .icon-tron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .main .what-we-do p.what-we-do {
   color: #000;
   font-size: 4.8rem;
   font-weight: 700;
   text-align: center;
+  padding-top: 140px;
 }
 .main .what-we-do .desc {
   width: 864px;
@@ -305,7 +344,13 @@ main .what-we-do .list-icon-tech .item img {
   font-weight: 300;
 }
 .main .application-text .right {
+  position: relative;
   width: 340px;
+}
+.main .application-text .right .icon {
+  position: absolute;
+  top: -200%;
+  left: -20%;
 }
 .main .application-text .right p {
   color: #000;
@@ -316,6 +361,14 @@ main .what-we-do .list-icon-tech .item img {
   justify-content: center;
   align-items: center;
   margin-top: 83px;
+  position: relative;
+}
+.main .application .list-application-media .icon-cheo {
+  position: absolute;
+}
+.main .application .list-application-media .icon-cheo._2 {
+  position: absolute;
+  z-index: -1;
 }
 .main .list-application-media .item {
   text-align: center;
@@ -411,7 +464,13 @@ main .what-we-do .list-icon-tech .item img {
   cursor: pointer;
 }
 /* ===== meet-our-team ===== */
+.main .meet-our-team .icon-vuong {
+  position: absolute;
+  right: 0;
+  top: -50%;
+}
 .main .meet-our-team {
+  position: relative;
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
@@ -451,10 +510,24 @@ main .what-we-do .list-icon-tech .item img {
 }
 /* ===== our-goals ===== */
 .main .our-goals {
+  position: relative;
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   margin-top: 170px;
+}
+.main .our-goals .icon {
+  position: absolute;
+  left: -15%;
+}
+.main .our-goals .icon .cheo {
+  position: relative;
+}
+.main .our-goals .icon .tron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .main .our-goals .top {
   display: flex;
@@ -513,6 +586,7 @@ main .what-we-do .list-icon-tech .item img {
   position: relative;
 }
 .footer .top .img img {
+  width: 100%;
   filter: brightness(0.5);
 }
 .footer .top .text {
@@ -523,6 +597,11 @@ main .what-we-do .list-icon-tech .item img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.footer .top .icon-ft {
+  bottom: 0;
+  position: absolute;
+  right: 10%;
 }
 .footer .top .text .desc {
   color: #fff;
@@ -558,12 +637,27 @@ main .what-we-do .list-icon-tech .item img {
 }
 .footer .nav-footer {
   display: flex;
+  position: relative;
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   margin-top: 120px;
   justify-content: space-between;
   align-items: center;
+}
+.footer .icon-trai {
+  position: absolute;
+  left: -10%;
+}
+.footer .icon-giua {
+  position: absolute;
+  left: 15%;
+  bottom: -100%;
+}
+.footer .icon-phai {
+  position: absolute;
+  right: 10%;
+  bottom: -100%;
 }
 .footer .nav-footer .logo-footer {
   text-align: center;
